@@ -212,9 +212,9 @@
       </semantic:contextEntry>
     </semantic:context>
   </semantic:decision>
-  <semantic:decision id="_ade4146f-4804-42ad-8274-29fd8fa25e29" name="ContrePArtie">
+  <semantic:decision id="_ade4146f-4804-42ad-8274-29fd8fa25e29" name="ContrePartie">
     <semantic:extensionElements/>
-    <semantic:variable id="_06b8d10c-068a-4b67-9cb8-cf18981a7636" name="ContrePArtie" typeRef="Any"/>
+    <semantic:variable id="_06b8d10c-068a-4b67-9cb8-cf18981a7636" name="ContrePartie" typeRef="Any"/>
     <semantic:informationRequirement id="_ce7b049b-0787-4893-846e-159eb3c497ef">
       <semantic:requiredInput href="#_ff48c426-2558-4096-ad64-b09ba1d1db11"/>
     </semantic:informationRequirement>
