@@ -248,10 +248,10 @@
           </semantic:decisionTable>
         </semantic:contextEntry>
         <semantic:contextEntry>
-          <semantic:variable id="_914DFB5D-460C-4AF8-B092-AB1A21D38EE3" name="Score Variable"/>
+          <semantic:variable id="_914DFB5D-460C-4AF8-B092-AB1A21D38EE3" name="Var" typeRef="Variable"/>
           <semantic:context id="_ED7FAFD9-FAF6-4404-8AF7-C25E5B15C1B9">
             <semantic:contextEntry>
-              <semantic:variable id="_9485E7D4-0A09-4E48-8A7F-2922B02AFA9C" name="Var.score" typeRef="Any"/>
+              <semantic:variable id="_9485E7D4-0A09-4E48-8A7F-2922B02AFA9C" name="Var.score" typeRef="number"/>
               <semantic:literalExpression id="_1FB61B24-6FF4-4BDE-A172-918CFC1E286D">
                 <semantic:text>Score</semantic:text>
               </semantic:literalExpression>
