@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.bpi.notation</groupId>
   <artifactId>Notation_DMN</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.2-SNAPSHOT</version>
   <packaging>kjar</packaging>
   <name>Notation_DMN</name>
   <description></description>
@@ -44,12 +44,6 @@
       <artifactId>kie-api</artifactId>
       <version>7.26.0.Final-redhat-00005</version>
       <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.bpi_brms_notation_demo.listeners</groupId>
-      <artifactId>listener</artifactId>
-      <version>1.2-SNAPSHOT</version>
-      <scope>compile</scope>
     </dependency>
   </dependencies>
   <build>
