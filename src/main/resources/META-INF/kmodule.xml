@@ -1,9 +1,1 @@
-<kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <kbase name="kbase" default="true" eventProcessingMode="stream" equalsBehavior="identity">
-    <ksession name="default-stateless-ksession" type="stateless" default="true" clockType="realtime">
-      <listeners>
-        <ruleRuntimeEventListener type="com.bpi_brms_notation_demo.listeners.NotationDMNRuntimeEventListener"/>
-      </listeners>
-    </ksession>
-  </kbase>
-</kmodule>
+<kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
