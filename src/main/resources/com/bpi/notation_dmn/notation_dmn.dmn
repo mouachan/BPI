@@ -108,10 +108,15 @@
           </semantic:decisionTable>
         </semantic:contextEntry>
         <semantic:contextEntry>
-          <semantic:variable id="_A688816C-8B38-49A6-8C68-4CB66766DF23" name="Var.score" typeRef="number"/>
-          <semantic:literalExpression id="_628B4484-1686-46D3-86E9-45E486006C8F">
-            <semantic:text>Score</semantic:text>
-          </semantic:literalExpression>
+          <semantic:variable id="_F668C1DD-267B-4259-A725-D292973C9D3A" name="Var.score" typeRef="number"/>
+          <semantic:relation id="_5F0E61F7-98F4-40D5-A847-C7E81BBEB728">
+            <semantic:column id="_5139C15A-6BD4-456C-A72F-F9FCD28802E0" name="Var.score" typeRef="number"/>
+            <semantic:row id="_3E91EA8D-2363-48C3-82F5-5128287A6187">
+              <semantic:literalExpression id="_248878F2-2ED4-42AC-ADC5-5A389A437E70">
+                <semantic:text>Score</semantic:text>
+              </semantic:literalExpression>
+            </semantic:row>
+          </semantic:relation>
         </semantic:contextEntry>
         <semantic:contextEntry>
           <semantic:literalExpression id="_8054d752-c5f7-449e-bb98-13146488570b">
@@ -443,9 +448,11 @@
             <drools:width>100.0</drools:width>
             <drools:width>100.0</drools:width>
           </drools:ComponentWidths>
-          <drools:ComponentWidths dmnElementRef="_628B4484-1686-46D3-86E9-45E486006C8F">
-            <drools:width>570.0</drools:width>
+          <drools:ComponentWidths dmnElementRef="_5F0E61F7-98F4-40D5-A847-C7E81BBEB728">
+            <drools:width>50.0</drools:width>
+            <drools:width>500.0</drools:width>
           </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_248878F2-2ED4-42AC-ADC5-5A389A437E70"/>
           <drools:ComponentWidths dmnElementRef="_8054d752-c5f7-449e-bb98-13146488570b">
             <drools:width>570.0</drools:width>
           </drools:ComponentWidths>
