@@ -31,7 +31,7 @@
       <semantic:formalParameter id="_af1cb999-a83d-4705-b00e-5969a57f2b16" name="Var" typeRef="Variable"/>
       <semantic:context id="_a53e8725-9957-4180-933d-a9d33f691e1a" typeRef="Any">
         <semantic:contextEntry>
-          <semantic:variable id="_18037119-4d1e-455e-bb24-1240418a0b70" name="Score" typeRef="number"/>
+          <semantic:variable id="_18037119-4d1e-455e-bb24-1240418a0b70" name="Var.score" typeRef="number"/>
           <semantic:decisionTable id="_247b4a13-c590-43d4-8b2a-61e551452778" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row" outputLabel="Score">
             <semantic:input id="_0013d898-7cb1-4e63-be7c-76299ca1d9d1">
               <semantic:inputExpression id="_E693DE63-5782-4461-8C18-FD2156C23A0B" typeRef="ContrePartie">
@@ -249,7 +249,7 @@
         </semantic:contextEntry>
         <semantic:contextEntry>
           <semantic:literalExpression id="_8054d752-c5f7-449e-bb98-13146488570b">
-            <semantic:text>Score</semantic:text>
+            <semantic:text>Var.score</semantic:text>
           </semantic:literalExpression>
         </semantic:contextEntry>
       </semantic:context>
