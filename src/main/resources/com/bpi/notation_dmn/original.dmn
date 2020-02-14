@@ -414,7 +414,7 @@
       <semantic:requiredKnowledge href="#_61b7e2a2-712a-4d97-9638-5c2fcd8849f2"/>
     </semantic:knowledgeRequirement>
     <semantic:literalExpression id="_c576c046-e7e5-4e00-9e94-02b9ae81f6ad" typeRef="Any">
-      <semantic:text>sum(for Variable in Variables return Score(ContrePartie,Variable)</semantic:text>
+      <semantic:text>sum(for Variable in Variables return Score(ContrePartie,Variable))</semantic:text>
     </semantic:literalExpression>
   </semantic:decision>
   <dmndi:DMNDI>
