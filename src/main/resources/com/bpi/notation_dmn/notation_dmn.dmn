@@ -109,7 +109,7 @@
         </semantic:contextEntry>
         <semantic:contextEntry>
           <semantic:literalExpression id="_8054d752-c5f7-449e-bb98-13146488570b">
-            <semantic:text>Var.Score</semantic:text>
+            <semantic:text>Var.score</semantic:text>
           </semantic:literalExpression>
         </semantic:contextEntry>
       </semantic:context>
