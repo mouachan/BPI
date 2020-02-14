@@ -246,7 +246,7 @@
         </semantic:contextEntry>
         <semantic:contextEntry>
           <semantic:literalExpression id="_8054d752-c5f7-449e-bb98-13146488570b">
-            <semantic:text>Score</semantic:text>
+            <semantic:text>if(Score != null) then Score else 0</semantic:text>
           </semantic:literalExpression>
         </semantic:contextEntry>
       </semantic:context>
