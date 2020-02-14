@@ -16,9 +16,6 @@
     <semantic:itemComponent id="_db70e853-eab2-4729-a7c4-66d4e953688e" name="valeur" isCollection="false">
       <semantic:typeRef>number</semantic:typeRef>
     </semantic:itemComponent>
-    <semantic:itemComponent id="_6F7C23A6-541F-4455-9055-633DAB8A76F0" name="score" isCollection="false">
-      <semantic:typeRef>number</semantic:typeRef>
-    </semantic:itemComponent>
   </semantic:itemDefinition>
   <semantic:itemDefinition id="_84378930-214A-4121-9D36-091EAA1B7EAC" name="tScore" isCollection="false">
     <semantic:typeRef>number</semantic:typeRef>
