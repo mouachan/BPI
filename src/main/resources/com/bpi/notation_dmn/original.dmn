@@ -414,17 +414,33 @@
       <semantic:requiredKnowledge href="#_61b7e2a2-712a-4d97-9638-5c2fcd8849f2"/>
     </semantic:knowledgeRequirement>
     <semantic:literalExpression id="_c576c046-e7e5-4e00-9e94-02b9ae81f6ad" typeRef="Any">
-      <semantic:text>sum(for Variable in Variables return Score(ContrePartie,Variable))</semantic:text>
+      <semantic:text>sum(for Variable in Variables return ((Score(ContrePartie,Variable)==null?0:Score(ContrePartie,Variable))</semantic:text>
     </semantic:literalExpression>
   </semantic:decision>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
       <di:extension>
         <drools:ComponentsWidthsExtension>
-          <drools:ComponentWidths dmnElementRef="_a53e8725-9957-4180-933d-a9d33f691e1a"/>
-          <drools:ComponentWidths dmnElementRef="_247b4a13-c590-43d4-8b2a-61e551452778"/>
-          <drools:ComponentWidths dmnElementRef="_8054d752-c5f7-449e-bb98-13146488570b"/>
-          <drools:ComponentWidths dmnElementRef="_703469de-1a20-4bb4-a886-09310e930aa5"/>
+          <drools:ComponentWidths dmnElementRef="_a53e8725-9957-4180-933d-a9d33f691e1a">
+            <drools:width>50.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>570.0</drools:width>
+          </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_247b4a13-c590-43d4-8b2a-61e551452778">
+            <drools:width>50.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>100.0</drools:width>
+          </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_8054d752-c5f7-449e-bb98-13146488570b">
+            <drools:width>570.0</drools:width>
+          </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_703469de-1a20-4bb4-a886-09310e930aa5">
+            <drools:width>50.0</drools:width>
+            <drools:width>740.0</drools:width>
+          </drools:ComponentWidths>
           <drools:ComponentWidths dmnElementRef="_4ca79806-0d33-4b63-b85f-600569457fc2"/>
           <drools:ComponentWidths dmnElementRef="_203488f0-15d9-436a-bfe8-4cbbcf8555e1"/>
           <drools:ComponentWidths dmnElementRef="_7fd1e61d-903c-4330-970c-ed14aeb235e7"/>
@@ -432,7 +448,9 @@
           <drools:ComponentWidths dmnElementRef="_68bd5785-78a9-4b0d-b419-b59fe90d0f7f"/>
           <drools:ComponentWidths dmnElementRef="_53938a1c-c8de-4417-86ca-c356e2b092bf"/>
           <drools:ComponentWidths dmnElementRef="_ab6ca1e1-ee5b-4bde-92d1-0f2efdfaa637"/>
-          <drools:ComponentWidths dmnElementRef="_c576c046-e7e5-4e00-9e94-02b9ae81f6ad"/>
+          <drools:ComponentWidths dmnElementRef="_c576c046-e7e5-4e00-9e94-02b9ae81f6ad">
+            <drools:width>901.0</drools:width>
+          </drools:ComponentWidths>
         </drools:ComponentsWidthsExtension>
       </di:extension>
       <dmndi:DMNShape id="dmnshape-_61b7e2a2-712a-4d97-9638-5c2fcd8849f2" dmnElementRef="_61b7e2a2-712a-4d97-9638-5c2fcd8849f2" isCollapsed="false">
