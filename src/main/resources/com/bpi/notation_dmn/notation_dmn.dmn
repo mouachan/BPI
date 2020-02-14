@@ -105,6 +105,146 @@
                 <semantic:text>0</semantic:text>
               </semantic:outputEntry>
             </semantic:rule>
+            <semantic:rule id="_EAAA20DF-60E0-4290-B041-9123DA351C1E">
+              <semantic:inputEntry id="_44B5A994-FFE7-4E2D-B151-54AB77D8EBDD">
+                <semantic:text>"MODELE_1"</semantic:text>
+              </semantic:inputEntry>
+              <semantic:inputEntry id="_0D4DA665-C064-4D5C-B600-44514FA97AAF">
+                <semantic:text>"rentab_13"</semantic:text>
+              </semantic:inputEntry>
+              <semantic:inputEntry id="_EB213DA9-68F4-455A-9D6C-FA781F025F77">
+                <semantic:text>&lt;10</semantic:text>
+              </semantic:inputEntry>
+              <semantic:outputEntry id="_15290A22-7C23-4C40-A688-ED24F1099096">
+                <semantic:text>0.26</semantic:text>
+              </semantic:outputEntry>
+            </semantic:rule>
+            <semantic:rule id="_5404D387-8328-408F-AD99-DB3BA3A7DBDF">
+              <semantic:inputEntry id="_F588E219-65D6-4D6C-A00E-EC0A91D619E3">
+                <semantic:text>"MODELE_1"</semantic:text>
+              </semantic:inputEntry>
+              <semantic:inputEntry id="_FA224181-A765-4780-A5FA-64AC69B229E1">
+                <semantic:text>"rentab_13"</semantic:text>
+              </semantic:inputEntry>
+              <semantic:inputEntry id="_13B01BB7-4F7C-4D0E-84B7-BE2AA2E68BDC">
+                <semantic:text>[10..15)</semantic:text>
+              </semantic:inputEntry>
+              <semantic:outputEntry id="_8B23CA86-F592-438C-9557-C7A824DC48D6">
+                <semantic:text>0</semantic:text>
+              </semantic:outputEntry>
+            </semantic:rule>
+            <semantic:rule id="_57FA55C8-69AE-438B-825C-4687FC800890">
+              <semantic:inputEntry id="_2E88018C-64D0-4BE2-B7F1-81C625F85541">
+                <semantic:text>"MODELE_2"</semantic:text>
+              </semantic:inputEntry>
+              <semantic:inputEntry id="_B9BB7D75-407E-48A1-8B1B-F54D9F257167">
+                <semantic:text>"strfin_36"</semantic:text>
+              </semantic:inputEntry>
+              <semantic:inputEntry id="_ADD9B023-7517-4BE4-BD79-747DA2E5E99A">
+                <semantic:text>&lt;2</semantic:text>
+              </semantic:inputEntry>
+              <semantic:outputEntry id="_4C32205A-0D47-46A0-8E3E-43D9C2ACD7D0">
+                <semantic:text>1.25</semantic:text>
+              </semantic:outputEntry>
+            </semantic:rule>
+            <semantic:rule id="_7C33D0F6-1153-43B2-8A33-1F9EF5D5187E">
+              <semantic:inputEntry id="_4138A852-6C98-4FEB-981E-BC0E8D6E6C9F">
+                <semantic:text>"MODELE_2"</semantic:text>
+              </semantic:inputEntry>
+              <semantic:inputEntry id="_509A428D-52C1-44AD-B1E9-1AF5349F973C">
+                <semantic:text>"strfin_36"</semantic:text>
+              </semantic:inputEntry>
+              <semantic:inputEntry id="_A3154B16-BF72-470C-AF3D-87F98F794EA0">
+                <semantic:text>[2..4)</semantic:text>
+              </semantic:inputEntry>
+              <semantic:outputEntry id="_479BA36A-0403-4EEE-BD73-458E23687F5D">
+                <semantic:text>1.13</semantic:text>
+              </semantic:outputEntry>
+            </semantic:rule>
+            <semantic:rule id="_B3191089-9ED9-4486-900E-7C7546294809">
+              <semantic:inputEntry id="_70BBBE3C-BD88-46D2-B491-4695581D5CD6">
+                <semantic:text>"MODELE_2"</semantic:text>
+              </semantic:inputEntry>
+              <semantic:inputEntry id="_57415068-2841-4AB0-8711-11D2539B6DFD">
+                <semantic:text>"strfin_36"</semantic:text>
+              </semantic:inputEntry>
+              <semantic:inputEntry id="_70BFA209-48BA-44B1-8953-1770BFFC5301">
+                <semantic:text>[6..8)</semantic:text>
+              </semantic:inputEntry>
+              <semantic:outputEntry id="_97283BC5-7C83-42CD-966C-0A24C79DDF23">
+                <semantic:text>0.88</semantic:text>
+              </semantic:outputEntry>
+            </semantic:rule>
+            <semantic:rule id="_AF358327-D01F-41DD-9E9D-D842828D732C">
+              <semantic:inputEntry id="_E06979A8-71CB-4C59-B215-7DD4A5F7A6A9">
+                <semantic:text>"MODELE_2"</semantic:text>
+              </semantic:inputEntry>
+              <semantic:inputEntry id="_EEC62318-0907-4A12-B3DA-3E25F88BE977">
+                <semantic:text>"strfin_36"</semantic:text>
+              </semantic:inputEntry>
+              <semantic:inputEntry id="_553782CB-6C60-4D80-A2B5-CE65E1F301F5">
+                <semantic:text>[10..12)</semantic:text>
+              </semantic:inputEntry>
+              <semantic:outputEntry id="_7231B2B4-18FB-4933-9826-E3BB7A60DCDB">
+                <semantic:text>0.49</semantic:text>
+              </semantic:outputEntry>
+            </semantic:rule>
+            <semantic:rule id="_E66C7EFB-412C-4334-A3FD-913054E8A6DF">
+              <semantic:inputEntry id="_D257C609-E3CB-44A7-B6FA-367A7D1B7714">
+                <semantic:text>"MODELE_2"</semantic:text>
+              </semantic:inputEntry>
+              <semantic:inputEntry id="_57714377-6EA3-453C-B3C7-8CD2D13B0376">
+                <semantic:text>"strfin_36"</semantic:text>
+              </semantic:inputEntry>
+              <semantic:inputEntry id="_D7308918-0BDA-4B2C-8D37-F942899E4F3A">
+                <semantic:text>&gt;12</semantic:text>
+              </semantic:inputEntry>
+              <semantic:outputEntry id="_41916540-BC7C-4EA5-8E0D-1C78F8C5A102">
+                <semantic:text>0</semantic:text>
+              </semantic:outputEntry>
+            </semantic:rule>
+            <semantic:rule id="_70707654-E165-42D2-A1D5-63307DB4A9C8">
+              <semantic:inputEntry id="_289889C6-B938-48FB-84D7-C3FD06B5C02C">
+                <semantic:text>"MODELE_2"</semantic:text>
+              </semantic:inputEntry>
+              <semantic:inputEntry id="_83EB95E1-D1C9-49E8-B75B-5EBA0FFE8DFB">
+                <semantic:text>"rentab_38"</semantic:text>
+              </semantic:inputEntry>
+              <semantic:inputEntry id="_F443EA15-6C09-45C7-A17B-F5C199E0F8DA">
+                <semantic:text>&lt;-10</semantic:text>
+              </semantic:inputEntry>
+              <semantic:outputEntry id="_BCCE24CE-A9C3-4EBC-A26C-558A925C84A4">
+                <semantic:text>0.37</semantic:text>
+              </semantic:outputEntry>
+            </semantic:rule>
+            <semantic:rule id="_3B9CDD6D-1629-4823-9D4E-5D59DAC866A7">
+              <semantic:inputEntry id="_0D503E1F-FCAA-4351-96B2-755891B80ED4">
+                <semantic:text>"MODELE_2"</semantic:text>
+              </semantic:inputEntry>
+              <semantic:inputEntry id="_D1DA9C9C-F3F5-4B48-9DC2-1DAE591803F9">
+                <semantic:text>"rentab_38"</semantic:text>
+              </semantic:inputEntry>
+              <semantic:inputEntry id="_AC7EAAE5-79D8-41B3-A310-F3FA0DD36875">
+                <semantic:text>[-10..-5)</semantic:text>
+              </semantic:inputEntry>
+              <semantic:outputEntry id="_059CDC92-78EC-4D4C-9B1A-E65A230B6A87">
+                <semantic:text>0.24</semantic:text>
+              </semantic:outputEntry>
+            </semantic:rule>
+            <semantic:rule id="_D0F4BE2C-07C7-43F9-8E9D-8E2220E9FB55">
+              <semantic:inputEntry id="_8D635632-201D-4287-8415-8A71473937D2">
+                <semantic:text>"MODELE_2"</semantic:text>
+              </semantic:inputEntry>
+              <semantic:inputEntry id="_10AD40C3-15DE-49D5-8F61-86E76A69E556">
+                <semantic:text>"rentab_38"</semantic:text>
+              </semantic:inputEntry>
+              <semantic:inputEntry id="_C1A93299-49DA-4250-8605-9C4BC372D546">
+                <semantic:text>[-5..20)</semantic:text>
+              </semantic:inputEntry>
+              <semantic:outputEntry id="_1E72334D-0D1C-4309-A5C1-098C3DBC1030">
+                <semantic:text>0</semantic:text>
+              </semantic:outputEntry>
+            </semantic:rule>
           </semantic:decisionTable>
         </semantic:contextEntry>
         <semantic:contextEntry>
@@ -427,22 +567,22 @@
           <drools:ComponentWidths dmnElementRef="_a53e8725-9957-4180-933d-a9d33f691e1a">
             <drools:width>50.0</drools:width>
             <drools:width>100.0</drools:width>
-            <drools:width>570.0</drools:width>
+            <drools:width>1203.0</drools:width>
           </drools:ComponentWidths>
           <drools:ComponentWidths dmnElementRef="_247b4a13-c590-43d4-8b2a-61e551452778">
             <drools:width>50.0</drools:width>
             <drools:width>100.0</drools:width>
             <drools:width>100.0</drools:width>
             <drools:width>100.0</drools:width>
-            <drools:width>100.0</drools:width>
-            <drools:width>100.0</drools:width>
+            <drools:width>312.0</drools:width>
+            <drools:width>521.0</drools:width>
           </drools:ComponentWidths>
           <drools:ComponentWidths dmnElementRef="_8054d752-c5f7-449e-bb98-13146488570b">
-            <drools:width>570.0</drools:width>
+            <drools:width>1203.0</drools:width>
           </drools:ComponentWidths>
           <drools:ComponentWidths dmnElementRef="_703469de-1a20-4bb4-a886-09310e930aa5">
             <drools:width>50.0</drools:width>
-            <drools:width>740.0</drools:width>
+            <drools:width>1373.0</drools:width>
           </drools:ComponentWidths>
           <drools:ComponentWidths dmnElementRef="_4ca79806-0d33-4b63-b85f-600569457fc2">
             <drools:width>50.0</drools:width>
