@@ -23,9 +23,9 @@
   <semantic:itemDefinition id="_84378930-214A-4121-9D36-091EAA1B7EAC" name="tScore" isCollection="false">
     <semantic:typeRef>number</semantic:typeRef>
   </semantic:itemDefinition>
-  <semantic:businessKnowledgeModel id="_61b7e2a2-712a-4d97-9638-5c2fcd8849f2" name="Score">
+  <semantic:businessKnowledgeModel id="_61b7e2a2-712a-4d97-9638-5c2fcd8849f2" name="Var.score">
     <semantic:extensionElements/>
-    <semantic:variable id="_9429d3d8-2d87-40f0-aff6-bb7ad4819a59" name="Score" typeRef="Any"/>
+    <semantic:variable id="_9429d3d8-2d87-40f0-aff6-bb7ad4819a59" name="Var.score" typeRef="Any"/>
     <semantic:encapsulatedLogic id="_703469de-1a20-4bb4-a886-09310e930aa5" typeRef="Any" kind="FEEL">
       <semantic:formalParameter id="_38601649-d663-4227-ab73-6727dcf42862" name="CP" typeRef="ContrePartie"/>
       <semantic:formalParameter id="_af1cb999-a83d-4705-b00e-5969a57f2b16" name="Var" typeRef="Variable"/>
@@ -417,7 +417,7 @@
       <semantic:requiredKnowledge href="#_61b7e2a2-712a-4d97-9638-5c2fcd8849f2"/>
     </semantic:knowledgeRequirement>
     <semantic:literalExpression id="_c576c046-e7e5-4e00-9e94-02b9ae81f6ad" typeRef="Any">
-      <semantic:text>sum(for Variable in Variables return Score(ContrePartie,Variable))</semantic:text>
+      <semantic:text>sum(for Variable in Variables return Var.score(ContrePartie,Variable))</semantic:text>
     </semantic:literalExpression>
   </semantic:decision>
   <dmndi:DMNDI>
