@@ -339,7 +339,7 @@
           <semantic:decisionTable id="_51d433ba-0d46-4889-ba56-81bebda84fff" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row" outputLabel="Score By Var">
             <semantic:input id="_0CEEC3E7-E375-4076-B01E-1FF458127C8D">
               <semantic:inputExpression id="_61D6AA55-4258-4BF1-88AC-198359BDEDF2" typeRef="string">
-                <semantic:text>Var.Type</semantic:text>
+                <semantic:text>Var.type</semantic:text>
               </semantic:inputExpression>
             </semantic:input>
             <semantic:input id="_4320e1f5-892e-450f-9f91-d9dff7aaa690">
