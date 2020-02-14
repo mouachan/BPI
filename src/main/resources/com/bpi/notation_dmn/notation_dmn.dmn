@@ -16,6 +16,9 @@
     <semantic:itemComponent id="_db70e853-eab2-4729-a7c4-66d4e953688e" name="valeur" isCollection="false">
       <semantic:typeRef>number</semantic:typeRef>
     </semantic:itemComponent>
+    <semantic:itemComponent id="_6F7C23A6-541F-4455-9055-633DAB8A76F0" name="score" isCollection="false">
+      <semantic:typeRef>number</semantic:typeRef>
+    </semantic:itemComponent>
   </semantic:itemDefinition>
   <semantic:itemDefinition id="_84378930-214A-4121-9D36-091EAA1B7EAC" name="tScore" isCollection="false">
     <semantic:typeRef>number</semantic:typeRef>
@@ -28,7 +31,7 @@
       <semantic:formalParameter id="_af1cb999-a83d-4705-b00e-5969a57f2b16" name="Var" typeRef="Variable"/>
       <semantic:context id="_a53e8725-9957-4180-933d-a9d33f691e1a" typeRef="Any">
         <semantic:contextEntry>
-          <semantic:variable id="_18037119-4d1e-455e-bb24-1240418a0b70" name="Score" typeRef="number"/>
+          <semantic:variable id="_18037119-4d1e-455e-bb24-1240418a0b70" name="Var.Score" typeRef="number"/>
           <semantic:decisionTable id="_247b4a13-c590-43d4-8b2a-61e551452778" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row" outputLabel="Score">
             <semantic:input id="_0013d898-7cb1-4e63-be7c-76299ca1d9d1">
               <semantic:inputExpression id="_E693DE63-5782-4461-8C18-FD2156C23A0B" typeRef="ContrePartie">
@@ -106,7 +109,7 @@
         </semantic:contextEntry>
         <semantic:contextEntry>
           <semantic:literalExpression id="_8054d752-c5f7-449e-bb98-13146488570b">
-            <semantic:text>Score</semantic:text>
+            <semantic:text>Var.Score</semantic:text>
           </semantic:literalExpression>
         </semantic:contextEntry>
       </semantic:context>
@@ -414,7 +417,7 @@
       <semantic:requiredKnowledge href="#_61b7e2a2-712a-4d97-9638-5c2fcd8849f2"/>
     </semantic:knowledgeRequirement>
     <semantic:literalExpression id="_c576c046-e7e5-4e00-9e94-02b9ae81f6ad" typeRef="Any">
-      <semantic:text>sum(for Variable in Variables return Score(ContrePartie,Variable))</semantic:text>
+      <semantic:text>sum(for Variable in Variables return Score(ContrePartie,Variable.score))</semantic:text>
     </semantic:literalExpression>
   </semantic:decision>
   <dmndi:DMNDI>
