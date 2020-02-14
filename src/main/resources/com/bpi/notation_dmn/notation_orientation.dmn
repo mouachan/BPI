@@ -554,7 +554,7 @@
         <semantic:contextEntry>
           <semantic:literalExpression id="_c891895c-5792-41c9-ad56-104f8820bcb6">
             <semantic:text>if(Score != null)
-return Score</semantic:text>
+then  Score</semantic:text>
           </semantic:literalExpression>
         </semantic:contextEntry>
       </semantic:context>
