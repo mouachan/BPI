@@ -33,7 +33,7 @@
       <semantic:requiredKnowledge href="#_e6c81b55-760f-420c-9aad-fb6320dd8491"/>
     </semantic:knowledgeRequirement>
     <semantic:literalExpression id="_869f6f14-da0f-4bbd-bed3-c1a482e8c290" typeRef="Any">
-      <semantic:text>for i in Variables return [Score By Var(i,ContrePartie), i]</semantic:text>
+      <semantic:text>for i in Variables return [Score (i,ContrePartie), i]</semantic:text>
     </semantic:literalExpression>
   </semantic:decision>
   <semantic:decision id="_df30a179-726b-4616-bef7-803b8c294fde" name="Notation">
