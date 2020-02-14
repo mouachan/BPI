@@ -553,7 +553,7 @@
         </semantic:contextEntry>
         <semantic:contextEntry>
           <semantic:literalExpression id="_c891895c-5792-41c9-ad56-104f8820bcb6">
-            <semantic:text>Score By Var</semantic:text>
+            <semantic:text>if(Score By Var != null) Score By Var</semantic:text>
           </semantic:literalExpression>
         </semantic:contextEntry>
       </semantic:context>
@@ -570,13 +570,35 @@
           <drools:ComponentWidths dmnElementRef="_869f6f14-da0f-4bbd-bed3-c1a482e8c290">
             <drools:width>753.0</drools:width>
           </drools:ComponentWidths>
-          <drools:ComponentWidths dmnElementRef="_4ca79806-0d33-4b63-b85f-600569457fc2"/>
-          <drools:ComponentWidths dmnElementRef="_203488f0-15d9-436a-bfe8-4cbbcf8555e1"/>
-          <drools:ComponentWidths dmnElementRef="_7fd1e61d-903c-4330-970c-ed14aeb235e7"/>
-          <drools:ComponentWidths dmnElementRef="_61d1961d-c571-4d67-ba50-9ae5938c6b0d"/>
-          <drools:ComponentWidths dmnElementRef="_68bd5785-78a9-4b0d-b419-b59fe90d0f7f"/>
-          <drools:ComponentWidths dmnElementRef="_53938a1c-c8de-4417-86ca-c356e2b092bf"/>
-          <drools:ComponentWidths dmnElementRef="_2d949459-9cf0-4848-bc00-2d39887feacf"/>
+          <drools:ComponentWidths dmnElementRef="_4ca79806-0d33-4b63-b85f-600569457fc2">
+            <drools:width>50.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>370.0</drools:width>
+          </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_203488f0-15d9-436a-bfe8-4cbbcf8555e1">
+            <drools:width>370.0</drools:width>
+          </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_7fd1e61d-903c-4330-970c-ed14aeb235e7">
+            <drools:width>50.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>100.0</drools:width>
+          </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_61d1961d-c571-4d67-ba50-9ae5938c6b0d">
+            <drools:width>50.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>100.0</drools:width>
+            <drools:width>100.0</drools:width>
+          </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_68bd5785-78a9-4b0d-b419-b59fe90d0f7f">
+            <drools:width>370.0</drools:width>
+          </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_53938a1c-c8de-4417-86ca-c356e2b092bf">
+            <drools:width>370.0</drools:width>
+          </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_2d949459-9cf0-4848-bc00-2d39887feacf">
+            <drools:width>370.0</drools:width>
+          </drools:ComponentWidths>
           <drools:ComponentWidths dmnElementRef="_ab6ca1e1-ee5b-4bde-92d1-0f2efdfaa637"/>
           <drools:ComponentWidths dmnElementRef="_c3f819a5-99d9-4503-9d7d-a5cc4f3a9daf">
             <drools:width>50.0</drools:width>
