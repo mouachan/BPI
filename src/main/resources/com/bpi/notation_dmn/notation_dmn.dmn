@@ -23,15 +23,15 @@
   <semantic:itemDefinition id="_84378930-214A-4121-9D36-091EAA1B7EAC" name="tScore" isCollection="false">
     <semantic:typeRef>number</semantic:typeRef>
   </semantic:itemDefinition>
-  <semantic:businessKnowledgeModel id="_61b7e2a2-712a-4d97-9638-5c2fcd8849f2" name="Var.score">
+  <semantic:businessKnowledgeModel id="_61b7e2a2-712a-4d97-9638-5c2fcd8849f2" name="Score">
     <semantic:extensionElements/>
-    <semantic:variable id="_9429d3d8-2d87-40f0-aff6-bb7ad4819a59" name="Var.score" typeRef="Any"/>
+    <semantic:variable id="_9429d3d8-2d87-40f0-aff6-bb7ad4819a59" name="Score" typeRef="Any"/>
     <semantic:encapsulatedLogic id="_703469de-1a20-4bb4-a886-09310e930aa5" typeRef="Any" kind="FEEL">
       <semantic:formalParameter id="_38601649-d663-4227-ab73-6727dcf42862" name="CP" typeRef="ContrePartie"/>
       <semantic:formalParameter id="_af1cb999-a83d-4705-b00e-5969a57f2b16" name="Var" typeRef="Variable"/>
       <semantic:context id="_a53e8725-9957-4180-933d-a9d33f691e1a" typeRef="Any">
         <semantic:contextEntry>
-          <semantic:variable id="_18037119-4d1e-455e-bb24-1240418a0b70" name="Var.score" typeRef="number"/>
+          <semantic:variable id="_18037119-4d1e-455e-bb24-1240418a0b70" name="Score" typeRef="number"/>
           <semantic:decisionTable id="_247b4a13-c590-43d4-8b2a-61e551452778" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row" outputLabel="Score">
             <semantic:input id="_0013d898-7cb1-4e63-be7c-76299ca1d9d1">
               <semantic:inputExpression id="_E693DE63-5782-4461-8C18-FD2156C23A0B" typeRef="ContrePartie">
@@ -48,7 +48,7 @@
                 <semantic:text>Var.valeur</semantic:text>
               </semantic:inputExpression>
             </semantic:input>
-            <semantic:output id="_4afe0708-7921-4982-82b1-0381ffe6d118"/>
+            <semantic:output id="_4afe0708-7921-4982-82b1-0381ffe6d118" typeRef="number"/>
             <semantic:rule id="_0ad9f09b-eac2-4aac-a40b-e1826e89bc26">
               <semantic:inputEntry id="_e917ab42-0619-45c9-98a1-124f793ebe21">
                 <semantic:text>"MODELE_1"</semantic:text>
@@ -108,8 +108,14 @@
           </semantic:decisionTable>
         </semantic:contextEntry>
         <semantic:contextEntry>
+          <semantic:variable id="_A688816C-8B38-49A6-8C68-4CB66766DF23" name="Var.score" typeRef="number"/>
+          <semantic:literalExpression id="_628B4484-1686-46D3-86E9-45E486006C8F">
+            <semantic:text>Score</semantic:text>
+          </semantic:literalExpression>
+        </semantic:contextEntry>
+        <semantic:contextEntry>
           <semantic:literalExpression id="_8054d752-c5f7-449e-bb98-13146488570b">
-            <semantic:text>Var.score</semantic:text>
+            <semantic:text>Score</semantic:text>
           </semantic:literalExpression>
         </semantic:contextEntry>
       </semantic:context>
@@ -417,7 +423,7 @@
       <semantic:requiredKnowledge href="#_61b7e2a2-712a-4d97-9638-5c2fcd8849f2"/>
     </semantic:knowledgeRequirement>
     <semantic:literalExpression id="_c576c046-e7e5-4e00-9e94-02b9ae81f6ad" typeRef="Any">
-      <semantic:text>sum(for Variable in Variables return Var.score(ContrePartie,Variable))</semantic:text>
+      <semantic:text>sum(for Variable in Variables return Score(ContrePartie,Variable))</semantic:text>
     </semantic:literalExpression>
   </semantic:decision>
   <dmndi:DMNDI>
@@ -436,6 +442,9 @@
             <drools:width>100.0</drools:width>
             <drools:width>100.0</drools:width>
             <drools:width>100.0</drools:width>
+          </drools:ComponentWidths>
+          <drools:ComponentWidths dmnElementRef="_628B4484-1686-46D3-86E9-45E486006C8F">
+            <drools:width>570.0</drools:width>
           </drools:ComponentWidths>
           <drools:ComponentWidths dmnElementRef="_8054d752-c5f7-449e-bb98-13146488570b">
             <drools:width>570.0</drools:width>
