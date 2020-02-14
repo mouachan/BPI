@@ -327,9 +327,9 @@
     <semantic:extensionElements/>
     <semantic:variable id="_77f15a9d-3c20-4e57-ae5b-2d1fd34ff4fb" name="Variables" typeRef="Variable"/>
   </semantic:inputData>
-  <semantic:businessKnowledgeModel id="_e6c81b55-760f-420c-9aad-fb6320dd8491" name="Score By Var">
+  <semantic:businessKnowledgeModel id="_e6c81b55-760f-420c-9aad-fb6320dd8491" name="Score">
     <semantic:extensionElements/>
-    <semantic:variable id="_d5f2a4f0-583a-4bfb-92d7-6e4011cabb89" name="Score By Var" typeRef="number"/>
+    <semantic:variable id="_d5f2a4f0-583a-4bfb-92d7-6e4011cabb89" name="Score" typeRef="number"/>
     <semantic:encapsulatedLogic id="_40baa4e4-f879-43b4-a99e-1b606d36f9fe" typeRef="number" kind="FEEL">
       <semantic:formalParameter id="_9823a2df-070f-4668-b590-5c73a28f88f5" name="Var" typeRef="Variable"/>
       <semantic:formalParameter id="_3330b041-b9e4-4497-a0cd-d871bbc7bd83" name="CP" typeRef="ContrePartie"/>
@@ -553,7 +553,7 @@
         </semantic:contextEntry>
         <semantic:contextEntry>
           <semantic:literalExpression id="_c891895c-5792-41c9-ad56-104f8820bcb6">
-            <semantic:text>if(Score By Var != null) return  Score By Var</semantic:text>
+            <semantic:text>if(Score != null) return  Score</semantic:text>
           </semantic:literalExpression>
         </semantic:contextEntry>
       </semantic:context>
