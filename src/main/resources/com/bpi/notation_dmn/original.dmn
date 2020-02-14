@@ -106,7 +106,7 @@
         </semantic:contextEntry>
         <semantic:contextEntry>
           <semantic:literalExpression id="_8054d752-c5f7-449e-bb98-13146488570b">
-            <semantic:text>if(Score == null) return 0 then return Score</semantic:text>
+            <semantic:text>if(Score == null) then 0 else Score</semantic:text>
           </semantic:literalExpression>
         </semantic:contextEntry>
       </semantic:context>
